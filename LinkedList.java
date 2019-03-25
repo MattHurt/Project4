@@ -12,13 +12,7 @@ public classs LinkedList<T> implements MyCollectionInterfaceProject04<T>
 {
       private Node firstNode;      // first node in the linked list
    	private int numberOfEntries; // Total count of entries in linked list
-   								 
-   	
-   	LinkedList () // constructor
-      {
-   		initializeDataFields();
-   	}
-      
+     
       // adds a new entry to this collection
    	public boolean add(T newItem) {
    		boolean result = false;
